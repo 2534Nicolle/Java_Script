@@ -1,0 +1,6 @@
+function Informar(){
+   
+    const nome = document.getElementById("nome").value;
+
+    alert("Seja bem-vindo " + nome);
+}
