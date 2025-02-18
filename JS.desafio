@@ -1,0 +1,15 @@
+function Incrementar() {
+    let contador = document.getElementById('cont');
+    contador.textContent = parseInt(contador.textContent) + 1;
+}
+
+function Decrementar() {
+    let contador = document.getElementById('cont');
+    contador.textContent = parseInt(contador.textContent) - 1;
+}
+
+function Resetar() {
+    let contador = document.getElementById('cont');
+    contador.textContent = 0;
+}
+
