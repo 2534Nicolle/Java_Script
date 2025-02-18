@@ -1,0 +1,9 @@
+function calcular() {
+        
+    const Celsius = document.getElementById("c").value;
+
+     let Fahrenheit = parseInt((Celsius * 9/5) + 32);
+
+    alert(Fahrenheit);
+
+}
