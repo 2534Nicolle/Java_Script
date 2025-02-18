@@ -1,0 +1,16 @@
+function calcular() {
+     
+    const valor1 = document.getElementById("vl1").value;
+    const valor2 = document.getElementById("vl2").value;
+
+     let soma = parseInt(valor1) + parseInt(valor2);
+     let sub = parseInt(valor1) - parseInt(valor2);
+     let mult = parseInt(valor1) * parseInt(valor2);
+     let div = parseInt(valor1) / parseInt(valor2);
+
+    alert("Soma: " + soma);
+    alert("Subtração: " +sub);
+    alert("Multiplicação: " +mult);
+    alert("Divisão: " +div);
+
+}
